@@ -14,3 +14,4 @@ Een pseudo random number generator gemaakt met behulp van een linear feedback sh
 
 ## Simulaties
 ### Pseudo Random Number Generator
+[<img src="/images/tb_LFSR.png">](https://github.com/Verbeast2K/DSD_project/blob/main/images/tb_LFSR.png)
