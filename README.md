@@ -6,7 +6,7 @@ A good example of this strength of FPGA's can be found in their ability to quick
 
 This project takes a look at Linear Feedback Shift Registers (LFSR's) and how they can be used to develop random number generators.
 
-![alt text](image.png)
+![alt text](/images/image.png)
 
 https://www.youtube.com/watch?v=Ks1pw1X22y4
 
@@ -18,7 +18,7 @@ The bit that gets pushed out during the register shift can be used as a pseudo r
 
 The advantage of the LFSR lies in its simplicity and this makes it possible to generate a pseudo random bit stream at high speeds. This simplicity however comes at the cost of it being finite and predictable. The linearity of the system makes it possible to easily decipher the feedback function and original seed if enough values from the bit stream are given.
 
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 *Notice how easily predictable the sequence of a simple LFSR is*
 
 So how is it possible to make a Random Number Generater (RNG) using the LFSR without it becoming predictable?
@@ -36,7 +36,7 @@ We have a couple of ways to do this:
 A good example of a more convoluted RNG using LFSR's is the Trivium cipher.
 
 ![
-](image-1.png)
+](/images/image-1.png)
 *structure of Trivium*
 
 Trivium uses three shift registers with different lengths, which are combined together into 288-bit internal states. Every clock cycle, all three registers get a bit shifted into them using a combination of taps from the own register and one other register. Each clock cycle, a single bit is produced.
